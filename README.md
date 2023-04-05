@@ -2,7 +2,7 @@
 
 Enhances the GitHub Reactions page, making them more compact.
 
-[Install on Greasyfork](https://greasyfork.org)
+[Install on Greasyfork](https://greasyfork.org/en/scripts/463344-refined-reactions)
 
 ## Sponsors
 

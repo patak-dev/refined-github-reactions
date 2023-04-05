@@ -3,7 +3,7 @@
 // @license      MIT
 // @homepageURL  https://github.com/patak-dev/refined-github-reactions
 // @supportURL   https://github.com/patak-dev/refined-github-reactions
-// @namespace    http://tampermonkey.net/
+// @namespace    https://greasyfork.org/en/scripts/463344-refined-reactions
 // @version      0.1
 // @description  Enhances the GitHub Reactions page, making them more compact.
 // @author       patak-dev
