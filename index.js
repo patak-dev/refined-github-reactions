@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Refined Reactions
+// @name         Refined GitHub Reactions
 // @license      MIT
 // @homepageURL  https://github.com/patak-dev/refined-github-reactions
 // @supportURL   https://github.com/patak-dev/refined-github-reactions
