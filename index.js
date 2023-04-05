@@ -23,12 +23,22 @@ flex-direction: row !important;
 position: absolute;
 right: 5px;
 transform: translate(0px, -13px);
+z-index: 10;
 }
 .js-reactions-container .js-reaction-group-button {
 background-color: var(--color-canvas-subtle);
 }
 .discussion-timeline-actions {
 border-top: 0;
+}
+.TimelineItem--condensed {
+padding-bottom: 14px;
+}
+.review-thread-component .timeline-comment-group  {
+padding-bottom: 26px;
+}
+.review-thread-component .js-reactions-container {
+transform: translate(0px, -10px);
 }
 `
   document.head.appendChild(style)
