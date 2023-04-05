@@ -1,0 +1,42 @@
+{
+  "name": "refined-github-reactions",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@8.1.1",
+  "author": "Matias Capeletto <matias.capeletto@gmail.com>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/patak-dev",
+  "homepage": "https://github.com/patak-dev/refined-github-reactions#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patak-dev/refined-github-reactions.git"
+  },
+  "bugs": "https://github.com/patak-dev/refined-github-reactions/issues",
+  "scripts": {
+    "lint": "eslint .",
+    "release": "bumpp -x \"node bump.js\" --all"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.38.4",
+    "@antfu/ni": "^0.21.2",
+    "@antfu/utils": "^0.7.2",
+    "@types/node": "^18.15.11",
+    "bumpp": "^9.1.0",
+    "eslint": "^8.37.0",
+    "esno": "^0.16.3",
+    "lint-staged": "^13.2.0",
+    "pnpm": "^8.1.1",
+    "rimraf": "^4.4.1",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "^5.0.3",
+    "unbuild": "^1.2.0",
+    "vite": "^4.2.1"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}
