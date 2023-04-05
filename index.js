@@ -7,7 +7,8 @@
 // @version      0.1.2
 // @description  Enhances the GitHub Reactions page, making them more compact.
 // @author       patak-dev
-// @match        https://github.com/**
+// @match        https://github.com/*/*/issues/**
+// @match        https://github.com/*/*/pull/**
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
 // @run-at       document-start
