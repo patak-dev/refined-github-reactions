@@ -14,8 +14,8 @@
 // @run-at       document-start
 // ==/UserScript==
 
-(function() {
-  'use strict';
+(function () {
+  'use strict'
 
   const style = document.createElement('style')
   style.innerHTML = `
@@ -43,4 +43,4 @@ transform: translate(0px, -10px);
 }
 `
   document.head.appendChild(style)
-})();
+})()
