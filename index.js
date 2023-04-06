@@ -41,6 +41,12 @@
 .review-thread-component .js-reactions-container {
   transform: translate(0px, -10px);
 }
+.js-reactions-container .details-overlay[open] > summary::before {
+  top: -400px;
+  right: -400px;
+  bottom: -400px;
+  left: -400px;
+}
 `
   document.head.appendChild(style)
 })()
