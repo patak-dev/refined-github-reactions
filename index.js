@@ -4,7 +4,7 @@
 // @homepageURL  https://github.com/patak-dev/refined-github-reactions
 // @supportURL   https://github.com/patak-dev/refined-github-reactions
 // @namespace    https://greasyfork.org/en/scripts/463344-refined-reactions
-// @version      0.1.4
+// @version      0.1.5
 // @description  Enhances the GitHub Reactions page, making them more compact.
 // @author       patak-dev
 // @match        https://github.com/*/*/issues/**
