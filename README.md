@@ -1,8 +1,16 @@
 # Refined GitHub Reactions 
 
-Enhances the GitHub Reactions page, making them more compact.
+Enhances the GitHub Emoji Reactions in Issues and PRs, making them more compact.
 
-[Install on Greasyfork](https://greasyfork.org/en/scripts/463344-refined-reactions)
+[Install now on Greasyfork!](https://greasyfork.org/en/scripts/463344-refined-reactions)
+
+Before:
+
+![](images/github-reactions.png)
+
+After installing refined-github-reactions:
+
+![](images/refined-github-reactions.png)
 
 ## Sponsors
 
