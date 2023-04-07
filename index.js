@@ -15,7 +15,7 @@
 
 (function () {
   'use strict'
-  const issueOrPRContainer = ':is(.js-issues-results, .pull-discussion-timeline)`'
+  const issueOrPRContainer = ':is(.js-issues-results, .pull-discussion-timeline)'
   const style = document.createElement('style')
   style.innerHTML = `
 ${issueOrPRContainer} .js-reactions-container {
