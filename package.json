@@ -1,7 +1,7 @@
 {
   "name": "refined-github-reactions",
   "type": "module",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": true,
   "packageManager": "pnpm@8.1.1",
   "author": "Matias Capeletto <matias.capeletto@gmail.com>",
