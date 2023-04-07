@@ -7,8 +7,7 @@
 // @version      0.1.5
 // @description  Enhances the GitHub Reactions page, making them more compact.
 // @author       patak-dev
-// @match        https://github.com/*/*/issues/**
-// @match        https://github.com/*/*/pull/**
+// @match        https://github.com/**
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
 // @grant        none
 // @run-at       document-start
@@ -16,36 +15,36 @@
 
 (function () {
   'use strict'
-
+  const issueOrPRContainer = ':is(.js-issues-results, .pull-discussion-timeline)`'
   const style = document.createElement('style')
   style.innerHTML = `
-.js-reactions-container {
+${issueOrPRContainer} .js-reactions-container {
   flex-direction: row !important;
   position: absolute;
   right: 5px;
   transform: translate(0px, -13px);
   z-index: 10;
 }
-.js-reactions-container .js-reaction-group-button {
+${issueOrPRContainer} .js-reactions-container .js-reaction-group-button {
   background-color: var(--color-canvas-subtle);
 }
-.discussion-timeline-actions {
-  border-top: 0;
-}
-.TimelineItem--condensed {
+${issueOrPRContainer} .TimelineItem--condensed {
   padding-bottom: 14px;
 }
-.review-thread-component .timeline-comment-group  {
+${issueOrPRContainer} .review-thread-component .timeline-comment-group  {
   padding-bottom: 26px;
 }
-.review-thread-component .js-reactions-container {
+${issueOrPRContainer} .review-thread-component .js-reactions-container {
   transform: translate(0px, -10px);
 }
-.js-reactions-container .details-overlay[open] > summary::before {
+${issueOrPRContainer} .js-reactions-container .details-overlay[open] > summary::before {
   top: -400px;
   right: -400px;
   bottom: -400px;
   left: -400px;
+}
+.discussion-timeline-actions {
+  border-top: 0;
 }
 `
   document.head.appendChild(style)
