@@ -43,6 +43,9 @@ ${issueOrPRContainer} .js-reactions-container .details-overlay[open] > summary::
   bottom: -400px;
   left: -400px;
 }
+${issueOrPRContainer} .is-comment-editing .js-reactions-container {
+  visibility: hidden;
+}
 .discussion-timeline-actions {
   border-top: 0;
 }
