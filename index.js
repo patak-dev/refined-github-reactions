@@ -51,6 +51,7 @@ ${issueOrPRContainer} .is-comment-editing .js-reactions-container {
 }
 
 /* GitHub's new design of issue page */
+[data-testid="issue-viewer-issue-container"],
 .react-issue-comment {
   position: relative;
 }
