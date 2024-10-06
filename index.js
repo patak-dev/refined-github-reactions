@@ -49,6 +49,16 @@ ${issueOrPRContainer} .is-comment-editing .js-reactions-container {
 .discussion-timeline-actions {
   border-top: 0;
 }
+
+/* GitHub's new design of issue page */
+.react-issue-comment {
+  position: relative;
+}
+[aria-label="Reactions"] {
+  position: absolute;
+  bottom: -12px;
+  right: 10px;
+}
 `
   document.head.appendChild(style)
 })()
