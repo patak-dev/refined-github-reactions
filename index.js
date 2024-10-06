@@ -60,6 +60,9 @@ ${issueOrPRContainer} .is-comment-editing .js-reactions-container {
   bottom: -12px;
   right: 10px;
 }
+[aria-label="Reactions"] button[role="switch"] {
+  background: var(--color-canvas-default);
+}
 `
   document.head.appendChild(style)
 })()
